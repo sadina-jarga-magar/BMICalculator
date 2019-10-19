@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">BMICalc</string>
+    <string name="underweight">Underweight</string>
+    <string name="overweight">Overweight</string>
+    <string name="normal">Normal</string>
+</resources>
