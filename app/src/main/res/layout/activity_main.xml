@@ -10,14 +10,15 @@
         android:id="@+id/txt1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="BMI Calculator"
         android:gravity="center"
-        android:paddingTop="40dp"
         android:paddingLeft="100dp"
+        android:paddingTop="40dp"
+        android:text="BMI Calculator"
         android:textSize="25sp"
         android:textStyle="bold"
 
         />
+
     <TextView
         android:id="@+id/result"
         android:layout_width="wrap_content"
@@ -36,6 +37,7 @@
         android:layout_marginLeft="60dp"
         android:layout_below="@id/result"
         android:gravity="center"
+        android:inputType="number|numberDecimal"
         android:paddingLeft="70dp"/>
 
     <TextView
@@ -57,6 +59,7 @@
         android:layout_toRightOf="@id/weight"
         android:layout_below="@id/result"
         android:gravity="center"
+        android:inputType="number|numberDecimal"
         android:layout_marginLeft="60dp"/>
 
     <TextView
